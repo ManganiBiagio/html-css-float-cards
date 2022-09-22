@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.clearfix ::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+header h1{
+    color: #E53170;
+    font-family: system-ui;
+    font-weight: bolder;
+}
+header{
+    text-align: center;
+    padding-top:2rem;
+}
+
+.container{
+    width: 920px;
+    margin:auto;
+    padding-top: 2rem;
+}
+
+.bedge{
+    background-color: red;
+    display: inline-block;
+    width: 30%;
+    
+}
+
+.bedge h2{
+    font-size: larger;
+}
+
+.bedge img{
+    float: left;
+    width: 5rem; 
+}
+
+.bedge :nth-child(2){
+
+}
+
+.rigabedge{
+    padding-top: 2rem;
+}
+
+
+
