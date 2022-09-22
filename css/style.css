@@ -26,9 +26,10 @@ header{
 }
 
 .bedge{
-    background-color: red;
+    background-color:#0F0E17;
     display: inline-block;
     width: 30%;
+    
     
 }
 
@@ -41,13 +42,37 @@ header{
     width: 5rem; 
 }
 
-.bedge :nth-child(2){
-
-}
 
 .rigabedge{
     padding-top: 2rem;
 }
+
+.info-persona{
+    padding-left: 6rem;
+    padding-top: .5rem;
+}
+
+.info-persona h2,h4{
+    padding-bottom: 0.3rem;
+}
+
+.bedge .info-persona h4{
+    color: #636668;
+    font-family: monospace;
+}
+
+.bedge .info-persona h2{
+    color: white;
+    font-size: smaller;
+}
+
+
+.info-persona span a{
+    text-decoration: none;
+    color: #32AADC;
+}
+
+
 
 
 
