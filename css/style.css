@@ -29,6 +29,7 @@ header{
     background-color:#0F0E17;
     display: inline-block;
     width: 30%;
+    box-shadow: 2px 2px 5px black;
 }
 
 .bedge:nth-child(1){
