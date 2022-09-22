@@ -29,9 +29,15 @@ header{
     background-color:#0F0E17;
     display: inline-block;
     width: 30%;
-    
-    
 }
+
+.bedge:nth-child(1){
+    margin-right: 2rem;
+}
+.bedge:nth-child(3){
+    margin-left: 2rem;
+}
+
 
 .bedge h2{
     font-size: larger;
@@ -45,6 +51,7 @@ header{
 
 .rigabedge{
     padding-top: 2rem;
+    text-align: center;
 }
 
 .info-persona{
